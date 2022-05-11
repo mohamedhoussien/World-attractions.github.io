@@ -1,0 +1,185 @@
+                                @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Akshar:wght@300;400&family=Roboto:wght@500&display=swap');
+                                @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+                                * {
+                                    font-family: 'Poppins', sans-serif;
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                    scroll-behavior: smooth;
+                                    background-color: rgb(21, 21, 21);
+                                }
+                                
+                                header {
+                                    background-color: #181616;
+                                    width: 100%;
+                                    position: sticky;
+                                    z-index: 1;
+                                    top: 0;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding: 10px 200px;
+                                }
+                                
+                                .logo {
+                                    text-decoration: none;
+                                    color: gold;
+                                    text-transform: uppercase;
+                                    font-weight: 700;
+                                    font-size: 1.8em;
+                                }
+                                
+                                .navigation a {
+                                    color: gold;
+                                    text-decoration: none;
+                                    font-size: 1.1em;
+                                    font-weight: 500;
+                                    padding-left: 30px;
+                                }
+                                
+                                .navigation a:hover {
+                                    color: gold;
+                                }
+                                
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                
+                                h1 {
+                                    color: gold;
+                                    -webkit-box-shadow: gold;
+                                }
+                                
+                                .title-booking {
+                                    padding: 100px 200px;
+                                    color: azure;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                }
+                                
+                                .book {
+                                    /* height: 50px;
+    max-width: 1280px; */
+                                    display: flex;
+                                    justify-content: center;
+                                    /* align-items: center; */
+                                }
+                                
+                                .form {
+                                    width: 700px;
+                                    background-color: rgb(18, 18, 18);
+                                    background-size: contain;
+                                }
+                                
+                                .form-text {
+                                    text-align: center;
+                                    margin: 40px, 0;
+                                }
+                                
+                                .form-text h1 span img {
+                                    margin: 0 10px;
+                                }
+                                
+                                .form-text h1 {
+                                    color: #fff;
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    font-size: 50px;
+                                    margin-bottom: 20px;
+                                    text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px darkgoldenrod;
+                                }
+                                
+                                .form-text p {
+                                    color: #fff;
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    font-size: 30px;
+                                }
+                                
+                                .main-form {
+                                    text-align: center;
+                                }
+                                
+                                .main-form div {
+                                    margin: 10px 24px;
+                                    display: inline-block;
+                                    width: 300px;
+                                }
+                                
+                                .main-form div input {
+                                    width: 300px;
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    background: none;
+                                    border: 1px solid gold;
+                                    font-size: 20px;
+                                    color: #fff;
+                                    outline: none;
+                                    padding: 3px 0 3px 10px;
+                                    margin-top: 10px;
+                                }
+                                
+                                .main-form div select {
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    width: 300px;
+                                    background: none;
+                                    border: 1px solid gold;
+                                    font-size: 20px;
+                                    color: #fff;
+                                    padding: 3px 0 3px 10px;
+                                    margin-top: 10px;
+                                }
+                                
+                                .main-form div span {
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    width: 300px;
+                                    color: #fff;
+                                    font-size: PX;
+                                }
+                                
+                                #submit {
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                                
+                                #submit input {
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    width: 200px;
+                                    background-color: gold;
+                                    color: black;
+                                    transition: all;
+                                }
+                                
+                                #submit input:hover {
+                                    font-family: 'Akaya Telivigala', cursive;
+                                    width: 200px;
+                                    background-color: black;
+                                    color: #fff;
+                                }
+                                
+                                #submit input:active {
+                                    font-size: 19px;
+                                    background-color: rgb(46, 20, 5);
+                                    color: #fff;
+                                }
+                                
+                                .footer {
+                                    background-color: black;
+                                    color: gold;
+                                    padding: 2em;
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                
+                                .footer-title {
+                                    font-size: 1.3em;
+                                    font-weight: 600;
+                                }
+                                
+                                .footer-title span {
+                                    color: gold;
+                                }
+                                
+                                .footer .social-icons a {
+                                    font-size: 1.3em;
+                                    padding: 0 12px 0 0;
+                                    color: gold;
+                                }

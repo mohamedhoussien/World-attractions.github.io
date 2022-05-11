@@ -1,0 +1,431 @@
+                                                            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+                                                        * {
+                                                            font-family: 'Poppins', sans-serif;
+                                                            margin: 0;
+                                                            padding: 0;
+                                                            box-sizing: border-box;
+                                                            scroll-behavior: smooth;
+                                                        }
+                                                        
+                                                        header {
+                                                            background-color: #181616;
+                                                            width: 100%;
+                                                            position: fixed;
+                                                            z-index: 999;
+                                                            display: flex;
+                                                            justify-content: space-between;
+                                                            align-items: center;
+                                                            padding: 10px 200px;
+                                                        }
+                                                        
+                                                        .logo {
+                                                            text-decoration: none;
+                                                            color: gold;
+                                                            text-transform: uppercase;
+                                                            font-weight: 700;
+                                                            font-size: 1.8em;
+                                                        }
+                                                        
+                                                        .navigation a {
+                                                            color: gold;
+                                                            text-decoration: none;
+                                                            font-size: 1.1em;
+                                                            font-weight: 500;
+                                                            padding-left: 30px;
+                                                        }
+                                                        
+                                                        .navigation a:hover {
+                                                            color: gold;
+                                                        }
+                                                        
+                                                        section {
+                                                            padding: 100px 200px;
+                                                            background-color: #000;
+                                                        }
+                                                        
+                                                        .main {
+                                                            width: 100%;
+                                                            min-height: 100vh;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            background: url(istockphoto-157586726-170667a.jpg) no-repeat;
+                                                            background-size: cover;
+                                                            background-position: center;
+                                                            background-attachment: fixed;
+                                                        }
+                                                        
+                                                        .main h2 {
+                                                            color: #fff;
+                                                            font-size: 1.4em;
+                                                            font-weight: 500;
+                                                        }
+                                                        
+                                                        .main h2 span {
+                                                            display: inline-block;
+                                                            margin-top: 10px;
+                                                            color: crimson;
+                                                            font-size: 3em;
+                                                            font-weight: 600;
+                                                        }
+                                                        
+                                                        .main h3 {
+                                                            color: gold;
+                                                            font-size: 2em;
+                                                            font-weight: 700;
+                                                            letter-spacing: 1px;
+                                                            margin-top: 10px;
+                                                            margin-bottom: 30px;
+                                                        }
+                                                        
+                                                        .main-btn {
+                                                            color: #fff;
+                                                            background-color: crimson;
+                                                            text-decoration: none;
+                                                            font-size: 1.1em;
+                                                            font-weight: 600;
+                                                            display: inline-block;
+                                                            padding: 0.9375em 2.1875em;
+                                                            letter-spacing: 1px;
+                                                            border-radius: 15px;
+                                                            margin-bottom: 40px;
+                                                            transition: 0.7s ease;
+                                                        }
+                                                        
+                                                        .main-btn:hover {
+                                                            background-color: gold;
+                                                            transform: scale(1.1);
+                                                        }
+                                                        
+                                                        .social-icons a {
+                                                            color: #fff;
+                                                            font-size: 1.7em;
+                                                            padding-right: 30px;
+                                                        }
+                                                        
+                                                        .card .box .box.imgbox {
+                                                            background-color: #181616;
+                                                        }
+                                                        
+                                                        .container {
+                                                            width: 1280px;
+                                                            margin: 70px auto 0;
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            flex-wrap: wrap;
+                                                        }
+                                                        
+                                                        .container .box {
+                                                            position: relative;
+                                                            width: 300px;
+                                                            height: 300px;
+                                                            background: #ff0;
+                                                            margin: 10px;
+                                                            box-sizing: border-box;
+                                                            display: inline-block;
+                                                        }
+                                                        
+                                                        .container .box.imgbox {
+                                                            position: relative;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .container .box.imgbox img {
+                                                            max-width: 100px;
+                                                            transition: transform 2s;
+                                                        }
+                                                        
+                                                        .container .box:hover .imgbox img {
+                                                            transform: scale(1.2);
+                                                        }
+                                                        
+                                                        .container {
+                                                            width: 1280px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            flex-wrap: wrap;
+                                                        }
+                                                        
+                                                        .container .box {
+                                                            background: #000;
+                                                            width: 300px;
+                                                            height: 300px;
+                                                            margin: 10px;
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .container .box .imgbox {
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .container .box .imgbox img {
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            transition: transform 2s;
+                                                        }
+                                                        
+                                                        .container .box:hover .imgbox img {
+                                                            transform: scale(1.4)
+                                                        }
+                                                        
+                                                        .container .box .info {
+                                                            position: absolute;
+                                                            top: 10px;
+                                                            left: 10px;
+                                                            bottom: 10px;
+                                                            right: 10px;
+                                                            background: rgba(0, 0, 0, .5);
+                                                            color: #ffffff;
+                                                            border: 1px solid #f1c40f;
+                                                            padding: 10px;
+                                                            text-align: center;
+                                                            transform: scaleX(0);
+                                                            transition: .6s;
+                                                        }
+                                                        
+                                                        .container .box:hover .info {
+                                                            transform: scaleX(1)
+                                                        }
+                                                        
+                                                        .container .box .info a {
+                                                            text-decoration: none;
+                                                            color: #ffffff;
+                                                            border: 1px solid #f1c40f;
+                                                            padding: 5px 20px;
+                                                            margin-top: 15px;
+                                                            border-radius: 3px;
+                                                        }
+                                                        
+                                                        .container .box .info a:hover {
+                                                            background: #f1c40f;
+                                                        }
+                                                        
+                                                        .container {
+                                                            background-color: #000;
+                                                        }
+                                                        
+                                                        .cards .p {
+                                                            color: gold;
+                                                            font-style: oblique;
+                                                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                                            font-size: x-large;
+                                                        }
+                                                        
+                                                        .container {
+                                                            position: relative;
+                                                            width: 100%;
+                                                            height: 50%;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            padding: 20px 100px;
+                                                        }
+                                                        
+                                                        .container:after {
+                                                            content: '';
+                                                            position: absolute;
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            left: 0;
+                                                            top: 0;
+                                                            background: url("pexels-photo-3722818.jpg") no-repeat center;
+                                                            background-size: cover;
+                                                            filter: blur(50px);
+                                                            z-index: -1;
+                                                        }
+                                                        
+                                                        .contact-box {
+                                                            max-width: 850px;
+                                                            display: grid;
+                                                            grid-template-columns: repeat(2, 1fr);
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            text-align: center;
+                                                            background-color: gold;
+                                                            box-shadow: 0px 0px 19px 5px crimson;
+                                                        }
+                                                        
+                                                        .left {
+                                                            background: url("pexels-photo-3722818.jpg") no-repeat center;
+                                                            background-size: cover;
+                                                            height: 100%;
+                                                        }
+                                                        
+                                                        .right {
+                                                            padding: 25px 40px;
+                                                        }
+                                                        
+                                                        h2 {
+                                                            position: relative;
+                                                            padding: 0 0 10px;
+                                                            margin-bottom: 10px;
+                                                        }
+                                                        
+                                                        h2:after {
+                                                            content: '';
+                                                            position: absolute;
+                                                            left: 50%;
+                                                            bottom: 0;
+                                                            transform: translateX(-50%);
+                                                            height: 4px;
+                                                            width: 50px;
+                                                            border-radius: 2px;
+                                                            background-color: crimson;
+                                                        }
+                                                        
+                                                        .field {
+                                                            width: 100%;
+                                                            border: 2px solid rgba(0, 0, 0, 0);
+                                                            outline: none;
+                                                            background-color: rgba(230, 230, 230, 0.6);
+                                                            padding: 0.5rem 1rem;
+                                                            font-size: 1.1rem;
+                                                            margin-bottom: 22px;
+                                                            transition: .3s;
+                                                        }
+                                                        
+                                                        .field:hover {
+                                                            background-color: rgba(0, 0, 0, 0.1);
+                                                        }
+                                                        
+                                                        textarea {
+                                                            min-height: 150px;
+                                                        }
+                                                        
+                                                        .btn {
+                                                            width: 100%;
+                                                            padding: 0.5rem 1rem;
+                                                            background-color: crimson;
+                                                            color: #fff;
+                                                            font-size: 1.1rem;
+                                                            border: none;
+                                                            outline: none;
+                                                            cursor: pointer;
+                                                            transition: .3s;
+                                                        }
+                                                        
+                                                        .btn:hover {
+                                                            background-color: crimson;
+                                                        }
+                                                        
+                                                        .field:focus {
+                                                            border: 2px solid crimson;
+                                                            background-color: #fff;
+                                                        }
+                                                        
+                                                        @media screen and (max-width: 880px) {
+                                                            .contact-box {
+                                                                grid-template-columns: 1fr;
+                                                            }
+                                                            .left {
+                                                                height: 200px;
+                                                            }
+                                                        }
+                                                        
+                                                        .content {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            flex-direction: row;
+                                                            flex-wrap: wrap;
+                                                        }
+                                                        
+                                                        .card {
+                                                            background-color: gold;
+                                                            width: 21.25em;
+                                                            box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+                                                            border-radius: 10px;
+                                                            padding: 10px;
+                                                            margin: 10px;
+                                                            transition: 0.7s ease;
+                                                        }
+                                                        
+                                                        .card:hover {
+                                                            transform: scale(1.1);
+                                                        }
+                                                        
+                                                        .card .icon {
+                                                            color: crimson;
+                                                            font-size: 8em;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .info {
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .info h3 {
+                                                            color: crimson;
+                                                            font-size: 1.2em;
+                                                            font-weight: 700;
+                                                            margin: 10px;
+                                                        }
+                                                        
+                                                        .cards .title {
+                                                            color: gold;
+                                                        }
+                                                        
+                                                        .footer {
+                                                            background-color: gold;
+                                                            color: crimson;
+                                                            padding: 2em;
+                                                            display: flex;
+                                                            justify-content: space-between;
+                                                        }
+                                                        
+                                                        .footer-title {
+                                                            font-size: 1.3em;
+                                                            font-weight: 600;
+                                                        }
+                                                        
+                                                        .footer-title span {
+                                                            color: crimson;
+                                                        }
+                                                        
+                                                        .footer .social-icons a {
+                                                            font-size: 1.3em;
+                                                            padding: 0 12px 0 0;
+                                                        }
+                                                        
+                                                        @media (max-width:1023px) {
+                                                            header {
+                                                                padding: 12px 20px;
+                                                            }
+                                                            .navigation a {
+                                                                padding-left: 10px;
+                                                            }
+                                                            .title {
+                                                                font-size: 1.8em;
+                                                            }
+                                                            section {
+                                                                padding: 80px 20px;
+                                                            }
+                                                            .main-content h2 {
+                                                                font-size: 1em;
+                                                            }
+                                                            .main-content h3 {
+                                                                font-size: 1.6em;
+                                                            }
+                                                            .content {
+                                                                flex-direction: column;
+                                                                align-items: center;
+                                                            }
+                                                        }
+                                                        
+                                                        @media (max-width:641px) {
+                                                            body {
+                                                                font-size: 12px;
+                                                            }
+                                                            .main-content h2 {
+                                                                font-size: 0.8em;
+                                                            }
+                                                            .main-content h3 {
+                                                                font-size: 1.4em;
+                                                            }
+                                                        }
+                                                        
+                                                        @media (max-width:300px) {
+                                                            body {
+                                                                font-size: 10px;
+                                                            }
