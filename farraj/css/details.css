@@ -1,0 +1,137 @@
+body{
+    text-align: center;
+    
+}
+header{
+    color:whitesmoke;
+    height: 70px;
+    width:90%;
+    background-color:#c0392b ;
+    margin:0 5%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    opacity: .7;
+    transition: .2s;
+    box-shadow: 1px 1px 10px 5px black;
+    border:none;
+    border-radius: 50px;
+}
+header:hover{
+opacity: 1;
+transition: .2s;
+}
+header img:hover{
+    box-shadow: none;
+}
+header img{
+    box-shadow: none;
+}
+.logoa{
+width:8%;
+height:90%;
+margin-left:3% ;
+display: flex;
+position: relative;
+}
+.logo{
+width:100%;
+height: 100%;
+border:none;
+border-radius:3px;
+}
+.logo:hover{
+    opacity: 1;
+}
+input{
+    margin:auto 15px;
+    width:30% ;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    font-size: 20px;
+}
+.search{
+    width:50px;
+    height:50px;
+    margin-right: 5%;
+    margin-left:-1%;
+    margin-top:5px;
+}
+.search:hover{
+    opacity: 1;
+}
+
+input:focus{
+    outline: none;
+}
+ul{
+    display: inline-flex;
+    width: 30%;
+    justify-content:flex-end;
+    margin-left:auto;
+    margin-right: 15px;
+}
+.li{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+    height: 70px;
+    width:100px;
+    border: none;
+    border-radius: 100px;
+    transition:.2s;
+}
+
+li{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 70px;
+    width:100px;
+    font-size:30px;
+    transition: .2s;
+}
+.li:hover{
+    transition:.2s;
+}
+.li:hover >li{
+    color:#3498db;
+    transition:.2s;
+}
+a{
+    text-decoration:none ;
+    color:white ;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+p:hover{
+    background-color:rgb(35, 42, 49);
+    color:snow;
+    font-weight: bold; 
+    box-shadow:0px 0px 10px 10px chartreuse;
+    transition: 0.3s;
+}
+img{
+box-shadow:0px 0px 5px 5px blue , 0px 0px 5px 8px red;
+transition: 0.3s;
+}
+
+p{
+    font-family:monospace;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    word-spacing: 3px;
+    border-color: seagreen;
+    border-style: solid;
+    transition: 0.3s;
+}
+img:hover{
+    box-shadow:0px 0px 5px 5px blue , 0px 0px 10px 15px red;
+    transition: 0.3s;
+}
