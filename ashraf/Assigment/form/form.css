@@ -1,0 +1,59 @@
+body {
+    background: #202a32;
+
+}
+
+form {
+    width: 450px;
+    height: 500px;
+    border: 1px solid #00baff;
+    border-radius: 20px;
+    margin: 50px auto;
+
+}
+
+h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+input[type="email"],
+[type="password"] {
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 1px solid #00baff
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 60px;
+    margin-left: 150px;
+    border: 1px solid #00baff;
+    border-radius: 10px;
+    color: #00baff;
+    font-size: 30px;
+
+}
+
+input[type="checkbox"]:after {
+    content: "remember me";
+    color: #fff;
+    line-height: 1;
+    position: absolute;
+    left: 500px;
+}
+
+.footer {
+    background-color: black;
+    height: 60px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
