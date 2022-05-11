@@ -1,0 +1,284 @@
+figcaption {
+color: rgb(255, 251, 251);
+font-size: larger;
+background-position: 0px 0px 0px ; 
+padding:40px;
+margin: 30px;
+}
+img{
+    width: 800;height: 400;
+    margin: 10px 10px 10px 200px;
+
+}
+.body{
+    background-color: #030303;
+    color: #030303;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image-2-700x393.jpg);
+    background-position: center;
+    background-size:cover;
+    padding-left: 5%;
+    padding-right: -50%;
+    box-sizing: border-box;
+    margin-bottom: -50px;
+}
+.navbar{
+    height: 12%;
+    display:flex ;
+    align-items:center;
+
+}
+.navbar :hover{
+    background: #f39696;
+} 
+.logo{
+    width: 100px;
+    height: 80px;
+    margin:10px 30px;
+cursor: pointer;
+}
+
+nav{
+    flex:1;
+    text-align-last: right;
+}
+
+nav ul li {
+list-style: none;
+display:inline-block;
+margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(7, 229, 241);
+    font-size: 20;
+    margin-right: 50px;
+}
+.raw{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+.mo{
+    color: aliceblue;
+    font-size: 22px;
+}
+.search-bar{
+    widht:100%;
+    max-width: 900px;
+    background: rgba(236, 231, 231, 0.836);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding:1px 10px;
+}
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    padding:14px 10px;
+    font-size:20px;
+    color:#0b0b0e;
+}
+::placeholder{
+    color:#030303
+}
+.search-bar button img{
+width: 35px;
+height: 30px;
+margin: 15px 2px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #dfe2f3;
+    cursor:pointer;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    /* cursor:pointer; */
+    margin: 10px 15px;
+    background-position: center;
+    background-size:cover ;
+    transition:transform 0.5s ;
+}
+
+ .oo {
+    /* background-image: url(Sheikh-Zayed-Grand-Mosque-AR20012020.jpg); */
+    width: 230px;
+    height: 230px;
+    margin: 10px 15px;
+    margin-right: 0px;
+    margin-left: -20px;
+    /* cursor:pointer;
+    box-sizing: border-box; */
+    background-position: center;
+    background-size:cover ;
+    display: inline-block;
+    transition:transform 0.5s ;
+    border-radius: 100px;
+    padding:10px 25px;
+
+}
+
+.uu{
+    width: 230px;
+    height: 230px;
+    margin: 10px 15px;
+    margin-left: -10px;
+
+    /* cursor:pointer;
+    box-sizing: border-box; */
+    background-position: center;
+    background-size:cover ;
+    display: inline-block;
+    transition:transform 0.5s ;
+    border-radius: 100px;
+    padding:10px 25px;
+}
+.aa{
+    width: 230px;
+    height: 230px;
+    margin: 10px 15px;
+    margin-left: -0px;
+
+    /* cursor:pointer;
+    box-sizing: border-box; */
+    background-position: center;
+    background-size:cover ;
+    display: inline-block;
+    transition: transform 0.5s ;
+    border-radius: 100px;
+    padding:10px 25px;
+}
+
+.pp{
+    width: 230px;
+    height: 230px;
+    margin: 10px 15px;
+    margin-left: 10px;
+
+    /* cursor:pointer;
+    box-sizing: border-box; */
+    background-position: center;
+    background-size:cover ;
+    display: inline-block;
+    transition:transform 0.5s ;
+    border-radius: 100px;
+    padding:10px 25px;
+
+}
+
+.yy{
+width: 230px;
+height: 230px;
+margin: 10px 15px;
+margin-left: 20px;
+/* cursor:pointer;
+box-sizing: border-box; */
+background-position: center;
+background-size:cover ;
+display: inline-block;
+transition:transform 0.5s ;
+border-radius: 100px;
+padding:10px 25px;
+
+}
+.card:hover{
+    transform: translate(-10px);
+}
+   p{
+       font-size: 50px;
+       color:rgb(255 255 255);
+   }
+   article{
+    /* width: 100%;
+    height: 100vh; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(dancing-dubai-fountains-2.jpg);
+    background-position: center;
+    background-size:cover;
+    /* padding-left: 5%;
+    padding-right: -50%;  */
+      box-sizing: border-box;
+    margin-bottom: -70px;
+    margin-top: 0px; 
+   }
+    @media(max-width:767px){
+       .contact.content.info address{
+margin-bottom: 40px;
+       }
+       
+   }
+   .footer{
+       padding-top: calc(var(--section-padding)/2);
+       padding-bottom: calc(var(--section-padding)/2);
+       background-image: url(1471809.jpg);
+       background-size: cover;
+       position: relative;
+       color:rgb(255 255 255);
+       text-align: center;
+   }
+   .footer::before{
+       content: "";
+       position: absolute;
+       left: 0px;
+       top: 0;
+       width: 100%;
+       height: 100%;
+       background-color: rgb(0 0 0 /50%);
+   }
+   .footer .blok{
+       position: relative;
+   }
+   .footer p:not(.copyright){
+text-transform: uppercase;
+padding: 20px;
+border-bottom: 1px solid white;
+font-size: 22px;
+width: fit-content;
+margin: 20px auto;
+   }
+   .footer.social-icon i {
+
+   }
+   .footer.copyright{
+margin-top: 60px;
+   }
+   .footer.copyright span{
+font-weight: bold;
+color: blueviolet;
+background-color: aquamarine;
+   }
+   .soc{
+       width: 50px;
+       height: 50px;
+       margin-top: -100px; 
+       margin: 0px 20px;
+   }
+   .ma{
+       width: 250px; 
+       height:200px;
+       margin-left: 30px;
+   } 
+ 
