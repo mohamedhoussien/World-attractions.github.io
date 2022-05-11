@@ -1,0 +1,56 @@
+body{
+    background-image: url(tawfik/PICS/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 9px 25px;
+    background-color: #2f2f2f;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #c5c5c5;
+}
+button:hover{
+    background-color: #131313c6;
+}
+h1{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    color: #c5c5c5;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    font-size: 55px;
+}
+.but{
+    padding-left: 50px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    color: #c5c5c5;
+    padding: 0px;
+}
+*{
+    size: 150%;
+}
+.v{
+    color: #ff6a00;
+    font-family: sans-serif;
+}
+.T{
+    color:red;
+    font-family: serif;
+    font-size: 85px;
+    font-weight: normal;
+}
+.r{
+    color: #ff6a00;
+    font-family: sans-serif;
+}

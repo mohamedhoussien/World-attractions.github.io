@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>sign up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="shortcut icon" type="x-icon" href="../Mohamed Hussein/images/signup.png">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <h2>sign up</h2>
+        <form action="">
+            <div class="form-item-username">
+                <input type="text" name="firstName" id="fristName"   placeholder="frist Name">
+                <input type="text" name="LastName" id="LastName"   placeholder="Last Name">
+            </div>
+
+            <div class="form-item">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="form-item">
+                <!--add a password format display-->
+                <span class="pwd-format">
+                    8-15 AlphaNumeric characters
+
+                </span>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="confirm password">
+            </div>
+            <div class="accept-box">
+                <input type="checkbox" name="accept" id="accept">
+                <p>I accept the <a href="#">Terms & conditions</a></p>
+            </div>
+
+            <div class="form-btns">
+                <button class="signup" type="submit">sign up</button>
+                <div class="options">
+                    Already hav an account? <a href="#">Login here</a>
+                </div>
+            </div>
+
+
+
+
+        </form>
+        <p>copyright &copy;yourwebsite.com</p>
+
+
+
+
+    </div>
+    
+
+
+<!--Here comes the javascript part-->
+
+<script>
+
+    const signup =document.querySelector(".signup");
+    const termcond =document.querySelector("#accept");
+    const password =document.querySelector("#password");
+    const confirmpassword =document.querySelector("#confirmpassword");
+    const pwd_format=document.querySelector(".pwd-format");
+
+    //lets define a password format
+    //the password should contain around 8-15 alphanumeric character
+    
+    const passwordpattern =/^[a-za-z0-9]{8,15}$/
+
+
+    password.addEventListener('focusin',()=>{
+        pwd_format.style.display ='block';
+
+        //now lets check the password entered by the user
+        password.addEventListener('keyup',()=>{
+            if(passwordpattern.test(password.value)){
+                password.style.bordercolor='green'// if password pattern matches the border of password input will ne green
+                pwd_format.style.color='green'
+            }else{
+                password.style.bordercolor ='red'
+                pwd_format.style.color ='red'
+            }
+        })
+
+
+    })
+
+
+
+    password.addEventListener('focusout',()=>{
+        pwd_format.style.display ='none';
+
+
+    })
+
+     confirmpassword.addEventListener('focusin',()=>{
+        pwd_format.style.display ='block';
+        confirmpassword.addEventListener('keyup',()=>{
+        if(passwordpattern.test( confirmpassword.value) && password.value===confirmpassword.value) {
+             confirmpassword.style.bordercolor='green' // if password pattern matches the border of password input will ne green
+                pwd_format.style.color='green'
+            }else{
+             confirmpassword.style.bordercolor ='red'
+                pwd_format.style.color='red'
+            }
+        }) 
+    })
+    
+    
+    
+
+
+
+    
+     confirmpassword.addEventListener('focusout',()=>{
+        pwd_format.style.display ='none';
+
+
+    })
+
+
+
+
+
+
+
+
+
+    termcond.addEventListener('change',()=>{
+        if(termcond.checked===true){
+            signup.disabled=false;
+        }else if(termcond.checked===false){
+            signup.disabled=true;
+        }
+    })
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    
+
+
+
+        
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
